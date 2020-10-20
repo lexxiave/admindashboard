@@ -9,7 +9,18 @@
     <link rel="stylesheet" href="../css/style.css">
 
     <style>
-       
+        .inlineblockDiv {
+            display: inline-block;
+            width: 100%;
+            height: auto;
+            padding: 5px;
+        }
+
+        .right {
+            float: right;
+            width: 70%;
+            padding: 10px;
+        }
 
     </style>
 
@@ -17,10 +28,10 @@
 </head>
 
 <body>
-    
-      <!--  2. CSP Designer  -->
-    
-      <div class="topnav">
+
+    <!--  2. CSP Designer  -->
+
+    <div class="topnav">
         <a class="logo" href="#"></a>
 
         <div class="topnav-right">
@@ -178,110 +189,135 @@
 
     <div class="col-6">
 
+        <div class="row">
 
-        <p class="wrapper">
-            <input class="icon" type="text" placeholder="&#61442;" />
-        </p>
-
-        <button class="btn-primary btn-small" type="submit">Test</button>
-
-        <button class="btn-primary btn-small" type="submit">(Re)-Profile</button>
+            <input class="icon" type="text" placeholder="&#61442;" style="width:57%;border-radius: 4px" />
 
 
-        <button class="btn-small btn-light" type="submit">Sign In</button>
+            <button class="btn-primary btn-small" type="submit">Test</button>
 
-
-        <button class="btn-small btn-light" type="submit">Sign Up</button>
-
-        <h4 class="text-center">Instantly share code, notes, and snippets</h4>
-
-        <p> chad / feature-stuff.md</p>
-
-        <button class="btn-small btn-light" type="submit">Secret</button>
-
-
-        <button class="btn-primary btn-large" type="submit"> <i class="fab fa-github"></i> Star</button>
-
-        <div class="tab">
-            <button class="tablinks" onclick="openCity(event, 'Code')" id="defaultOpen">Code</button>
-            <button class="tablinks" onclick="openCity(event, 'Revisions')">Revisions</button>
+            <button class="btn-primary btn-small" type="submit">(Re)-Profile</button>
         </div>
 
+        <div class="row">
+            <div class="col-3">
+                <i class="fas fa-bars"></i>
+            </div>
+            <div class="col-9">
+                <button class="btn-small btn-light" type="submit">Sign In</button>
 
 
-        <div id="Code" class="tabcontent">
-            <h3>Code</h3>
+                <button class="btn-small btn-light" type="submit">Sign Up</button>
+
+            </div>
+
+            <div class="row">
 
 
-            <button class="btn-small btn-light" type="submit">Raw</button>
+                <h3 class="text-center">Instantly share code, notes, and snippets</h3>
 
 
-            <div class="flex-grid">
 
-                <h1>CSP</h1>
+                <div class="col-3">
+                    <h4> chad / feature-stuff.md</h4>
+                </div>
+                <div class="col-9">
+                    <button class="btn-xsmall btn-light" type="submit">Secret</button>
+                </div>
 
-                <h3>Portal</h3>
+
+                <div class="row">
+                    <p>Active 5 days ago</p>
+                </div>
+
+                <div class="center">
+
+                    <button class="btn-primary btn-responsive" type="submit"> <i class="fas fa-star"></i> Star</button>
+
+                </div>
+
+            </div>
+
+            <div class="tab">
+                <button class="tablinks" onclick="openCity(event, 'Code')" id="defaultOpen">Code</button>
+                <button class="tablinks" onclick="openCity(event, 'Revisions')">Revisions</button>
+            </div>
 
 
-                <ul>
-                    <li>Policy violation view:</li>
+
+            <div id="Code" class="tabcontent">
+                <h3>Code</h3>
+
+
+                <button class="btn-small btn-light" type="submit">Raw</button>
+
+
+                <div class="flex-grid">
+
+                    <h1>CSP</h1>
+
+                    <h3>Portal</h3>
+
 
                     <ul>
-                        <li>Show every policy violation grouped into unique instances, and allow the user t</li>
+                        <li>Policy violation view:</li>
+
                         <ul>
-                            <li>Add - Automatically updates the CSP and shows you the CSP management/deploy page with an option to deploy </li>
-                            <li>* deploy </li>
-                            <li>Ignore - this is OK and I don’t to know about it </li>
-                            <li>Resolve - I changed the CSP so I don’t expect to see anymore of these but if I do see some show me </li>
-                        </ul>
-                        <li>Management /Deployment view:</li>
-                        <ul>
-                            <li>See CSP in text box</li>
+                            <li>Show every policy violation grouped into unique instances, and allow the user t</li>
+                            <ul>
+                                <li>Add - Automatically updates the CSP and shows you the CSP management/deploy page with an option to deploy </li>
+                                <li>* deploy </li>
+                                <li>Ignore - this is OK and I don’t to know about it </li>
+                                <li>Resolve - I changed the CSP so I don’t expect to see anymore of these but if I do see some show me </li>
+                            </ul>
+                            <li>Management /Deployment view:</li>
+                            <ul>
+                                <li>See CSP in text box</li>
+                            </ul>
                         </ul>
                     </ul>
-                </ul>
+
+                </div>
+
+
+            </div>
+
+            <div id="Revisions" class="tabcontent">
+                <h3>Revisions</h3>
 
             </div>
 
 
+
+
+
         </div>
 
-        <div id="Revisions" class="tabcontent">
-            <h3>Revisions</h3>
 
-        </div>
+        <script src="https://kit.fontawesome.com/65e8b7dfad.js" crossorigin="anonymous"></script>
 
-
+        <script src="./js/script.js"></script>
 
 
-
-    </div>
-
-
-    <script src="https://kit.fontawesome.com/65e8b7dfad.js" crossorigin="anonymous"></script>
-    
-     <script src="./js/script.js"></script>
-
-
-    <script>
-        function openCity(evt, cityName) {
-            var i, tabcontent, tablinks;
-            tabcontent = document.getElementsByClassName("tabcontent");
-            for (i = 0; i < tabcontent.length; i++) {
-                tabcontent[i].style.display = "none";
+        <script>
+            function openCity(evt, cityName) {
+                var i, tabcontent, tablinks;
+                tabcontent = document.getElementsByClassName("tabcontent");
+                for (i = 0; i < tabcontent.length; i++) {
+                    tabcontent[i].style.display = "none";
+                }
+                tablinks = document.getElementsByClassName("tablinks");
+                for (i = 0; i < tablinks.length; i++) {
+                    tablinks[i].className = tablinks[i].className.replace(" active", "");
+                }
+                document.getElementById(cityName).style.display = "block";
+                evt.currentTarget.className += " active";
             }
-            tablinks = document.getElementsByClassName("tablinks");
-            for (i = 0; i < tablinks.length; i++) {
-                tablinks[i].className = tablinks[i].className.replace(" active", "");
-            }
-            document.getElementById(cityName).style.display = "block";
-            evt.currentTarget.className += " active";
-        }
 
-        // Get the element with id="defaultOpen" and click on it
-        document.getElementById("defaultOpen").click();
+            // Get the element with id="defaultOpen" and click on it
+            document.getElementById("defaultOpen").click();
 
-    </script>
+        </script>
 
 
 
