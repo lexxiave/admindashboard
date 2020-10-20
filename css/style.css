@@ -488,7 +488,7 @@ td:first-child {
 [class*="col-"] {
     float: left;
     padding: 15px;
-    background-color: #fff;
+    background-color: transparent;
 }
 
 .col-1 {
@@ -555,6 +555,11 @@ td:first-child {
     left: 50%;
     /* bring your own prefixes */
     transform: translate(-50%, -50%);
+}
+
+.bg-centerDiv {
+    background-color: #DAE7FB;
+    padding: 3rem;
 }
 
 .row-centered {
