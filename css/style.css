@@ -707,3 +707,39 @@ span.a {
     color: black;
     font-size: 20px;
 }
+
+
+/*    6. Onboarding Create Account*/
+        
+        .darkblockDiv {
+            background-color: #4588ED; 
+            color: #fff; 
+            padding: 3.6rem 0 5.8rem 1rem;
+        }
+        
+          .bolderH1 {
+            font-weight: 600;
+            font-size: 2rem;
+        }
+        
+        .lightblockDiv {
+            background-color: #DAE7FB; 
+            padding: 3rem 2.5rem 5.2rem 2.5rem;
+        }
+        .selectDiv {
+            padding: 1rem 1rem 0 1rem;
+        }
+        .txt-small {
+            text-align: center;
+            font-size: 10px;
+        }
+        
+        .rightDiv {
+            display:inline;
+            padding: 0 1rems;
+            font-size:12px;
+            width:60%;
+            position:absolute;
+            top:300px;
+            left:580px;
+        }
