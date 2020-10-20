@@ -2,7 +2,7 @@
 
 1. Login Page
 
-2. CSP Designer
+2. CSP Designer 
 
 3. Initial Deployment Setup
 
