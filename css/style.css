@@ -189,11 +189,6 @@ input:checked + .slider:before {
     padding: 5px 10px;
 }
 
-img.sub-logo {
-    height: 60px;
-    max-width: 100%;
-}
-
 img.avatar {
     border-radius: 50%;
     width: 40px;
@@ -211,6 +206,9 @@ img.avatar {
     width: 100px;
 }
 
+.select-dropdown {
+    margin: 0 5rem;
+}
 
 /*  Buttons  */
 
@@ -808,4 +806,17 @@ span.a {
 img {
     width: 100%;
     height: auto;
+}
+
+
+/*         Deploy and Manage CSP*/
+
+.switchDiv {
+    display: inline;
+    width: 50%;
+    height: auto;
+}
+
+.deployDiv {
+    margin: 0 0.5rem;
 }
