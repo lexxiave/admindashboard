@@ -421,6 +421,18 @@ textarea {
     color: #FF7600;
 }
 
+.headerDiv {
+    background-color: #EAEDF3; 
+    height: 2.5rem;
+    padding: 1px 10px;
+}
+
+.titleDiv {
+    margin: 0.5rem 0;
+    font-weight:600;
+}
+
+
 /*        Table */
 
 table {
@@ -433,6 +445,9 @@ table {
     background: #E6E6E6;
 }
 
+.trDiv {
+    border-bottom: 1px solid #EAEDF3;
+}
 
 th {
     text-align: left;
@@ -465,14 +480,30 @@ td:first-child {
         }
 */
 
-#monitor-icon-blue {
-    border-radius: 4px;
-    background: #1665D8;
-    padding: 10px 20px 20px 10px;
-    width: 7px;
-    height: 7px;
-    color: #fff;
-    font-size: 16px;
+/* Monitoring*/
+
+ #monitors {
+  border-radius: 4px;
+  padding: 10px 10px 0px; 
+  width:35px;
+  height: 35px; 
+  color: white;
+}
+
+.monitor-icon-blue {
+  background: #1665D8;
+}
+
+.monitor-icon-purple {
+  background: #6A78FF;
+}
+
+.monitor-icon-yellow {
+  background: #F6AB2E;
+}
+
+.monitor-icon-green {
+  background: #3BAD4B;
 }
 
 

@@ -10,49 +10,6 @@
 
     <style>
 
-       #monitor-icon-blue {
-            border-radius: 4px;
-            background: #1665D8;
-            padding: 10px 20px 20px 10px;
-            width: 7px;
-            height: 7px;
-            color: #fff;
-            font-size: 16px;
-        }
-        
-        
-        #monitor-icon-purple {
-            border-radius: 4px;
-            background: #6A78FF;
-            padding: 10px 20px 20px 10px;
-            width: 7px;
-            height: 7px;
-            color: #fff;
-            font-size: 16px;
-        }
-
-          #monitor-icon-yellow {
-            border-radius: 4px;
-            background: #F6AB2E;
-            padding: 10px 20px 20px 10px;
-            width: 7px;
-            height: 7px;
-            color: #fff;
-            font-size: 16px;
-        }
-        
-          #monitor-icon-green {
-            border-radius: 4px;
-            background: #3BAD4B;
-            padding: 10px 20px 20px 10px;
-            width: 7px;
-            height: 7px;
-            color: #fff;
-            font-size: 16px;
-        }
-
-
-
 
 
     </style>
@@ -62,7 +19,7 @@
 <body>
 
 
-     <!--    Initial Deployment Setup, 5. Monitoring -->
+    <!--    Initial Deployment Setup, 5. Monitoring -->
 
 
     <div class="topnav">
@@ -89,7 +46,7 @@
             <table>
                 <tr>
                     <td>
-                        <div id="monitor-icon-blue">FD</div>
+                        <div id="monitors" class="monitor-icon-blue">FD</div>
                     </td>
                     <td>
                         <p>jQuery 2.7.1 <br /> Select interpreted as HTML </p>
@@ -98,9 +55,9 @@
                         <p>12 seconds ago </p>
                     </td>
                 </tr>
-                  <tr>
+                <tr>
                     <td>
-                        <div id="monitor-icon-purple">BD</div>
+                        <div id="monitors" class="monitor-icon-purple">BD</div>
                     </td>
                     <td>
                         <p>jQuery 2.7.1 <br /> Select interpreted as HTML </p>
@@ -109,9 +66,9 @@
                         <p>12 seconds ago </p>
                     </td>
                 </tr>
-                  <tr>
+                <tr>
                     <td>
-                        <div id="monitor-icon-yellow">DT</div>
+                        <div id="monitors" class="monitor-icon-yellow">DT</div>
                     </td>
                     <td>
                         <p>jQuery 2.7.1 <br /> Select interpreted as HTML </p>
@@ -120,9 +77,9 @@
                         <p>12 seconds ago </p>
                     </td>
                 </tr>
-                  <tr>
+                <tr>
                     <td>
-                        <div id="monitor-icon-green">G</div>
+                        <div id="monitors" class="monitor-icon-green">G</div>
                     </td>
                     <td>
                         <p>jQuery 2.7.1 <br /> Select interpreted as HTML </p>
@@ -131,9 +88,9 @@
                         <p>12 seconds ago </p>
                     </td>
                 </tr>
-                  <tr>
+                <tr>
                     <td>
-                        <div id="monitor-icon-green">G</div>
+                        <div id="monitors" class="monitor-icon-green">G</div>
                     </td>
                     <td>
                         <p>jQuery 2.7.1 <br /> Select interpreted as HTML </p>
@@ -150,19 +107,23 @@
         </div>
 
         <div class="col-9">
-            
+
+
+
+
+
+            <h3>jQuery 2.7.1</h3>
+
+            <p>jQuery before 3.4.0 as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, …} because of Object.prototype pollution. If an unsanitized source object contained and enumerable _proto_ property, it could extend the native Object.prototype. </p>
+
+
+            <p>CVE-2017-2535</p>
 
             <div class="flex-grid">
-                
-                
-                <h3>jQuery 2.7.1</h3>
-                
-                 <p>jQuery before 3.4.0  as used in Drupal, Backdrop CMS, and other products, mishandles jQuery.extend(true, {}, …} because of Object.prototype pollution. If an unsanitized source object contained and enumerable _proto_ property, it could extend the native Object.prototype. </p>
-                
-                
-                <p>CVE-2017-2535</p>
-                
 
+                <div class="headerDiv">
+                    <h4 class="titleDiv">Products Affected By CVE-2019-11358</h4>
+                </div>
 
                 <table>
                     <tr class="tr-header">
@@ -176,7 +137,7 @@
                         <th>Language</th>
                         <th> </th>
                     </tr>
-                    <tr>
+                    <tr class="trDiv">
                         <td>1</td>
                         <td>OS</td>
                         <td><a href="#">Debain </a></td>
@@ -187,53 +148,172 @@
                         <td> </td>
                         <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
                     </tr>
-                    <tr>
+                    <tr class="trDiv">
                         <td>2</td>
-                        <td>OS</td>
-                        <td><a href="#">Debain </a></td>
-                        <td><a href="#">Debain Linux </a></td>
-                        <td>9.0</td>
-                        <td> </td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Alpha3</td>
                         <td> </td>
                         <td> </td>
                         <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
                     </tr>
-                    <tr>
+                    <tr class="trDiv">
                         <td>3</td>
-                        <td>OS</td>
-                        <td><a href="#">Debain </a></td>
-                        <td><a href="#">Debain Linux </a></td>
-                        <td>9.0</td>
-                        <td> </td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>RC3</td>
                         <td> </td>
                         <td> </td>
                         <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
                     </tr>
-                    <tr>
+                    <tr class="trDiv">
                         <td>4</td>
-                        <td>OS</td>
-                        <td><a href="#">Debain </a></td>
-                        <td><a href="#">Debain Linux </a></td>
-                        <td>9.0</td>
-                        <td> </td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Beta2</td>
                         <td> </td>
                         <td> </td>
                         <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
                     </tr>
-                    <tr>
+                    <tr class="trDiv">
                         <td>5</td>
-                        <td>OS</td>
-                        <td><a href="#">Debain </a></td>
-                        <td><a href="#">Debain Linux </a></td>
-                        <td>9.0</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Alpha4</td>
                         <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>6</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>RC4</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>7/td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Beta3</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>8</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Alpha5</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>9</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td></td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>10</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>DEV</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>11</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Alpha5</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>12</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Alpha1</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>13</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>RC1</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>14</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Alpha7</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>15</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>RC2</td>
+                        <td> </td>
+                        <td> </td>
+                        <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
+                    </tr>
+                    <tr class="trDiv">
+                        <td>16</td>
+                        <td>Application</td>
+                        <td><a href="#">Drupal </a></td>
+                        <td><a href="#">Drupal</a></td>
+                        <td>7.0</td>
+                        <td>Alpha2</td>
                         <td> </td>
                         <td> </td>
                         <td><a href="#">Version Details </a> <a href="#">Vulnerabilites</a></td>
                     </tr>
                 </table>
-                 
-
 
             </div>
 
