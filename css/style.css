@@ -550,6 +550,16 @@ td:first-child {
     border-radius: 4px;
 }
 
+.flex-light {
+    flex: 1;
+    margin: 0 20px 20px 0;
+    padding: 0.5rem;
+    border: 1px solid #4588ED;
+    background: #fff;
+    border-radius: 4px;
+    width: 40%;
+}
+
 .centerDiv {
     position: fixed;
     top: 50%;
