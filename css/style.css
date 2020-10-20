@@ -640,3 +640,65 @@ input.icon::-moz-placeholder {
 input.icon::-ms-input-placeholder {
     font-family: 'FontAwesome';
 }
+
+.logo {
+    padding: 7.5px 10px 7.5px 0;
+    background: url(../img/logo-placeholder.png) left / contain no-repeat;
+    margin: 5px 10px;
+    height: 60px;
+    width: 60px;
+}
+
+  img.profile {
+            border-radius: 50%;
+            width: 50px;
+            padding: 0px 4px 0px 5px;
+            margin: -7px;
+        }
+
+
+
+.topnav {
+    overflow: hidden;
+    background-color: #FFFFFF;
+}
+
+.topnav a {
+    float: left;
+    color: #9EA0A5;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.topnav a:hover {
+    color: black;
+}
+
+.topnav a.active {
+    color: #1565D8;
+}
+
+.topnav-right {
+    float: right;
+}
+
+span.a {
+    display: inline;
+    /* the default for span */
+    width: 100px;
+    height: 100px;
+    padding: 5px;
+    font-size: 12px;
+}
+
+.item {
+    text-transform: uppercase;
+    margin: 0 20px;
+}
+
+#item-domain {
+    color: black;
+    font-size: 20px;
+}
