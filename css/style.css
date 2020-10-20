@@ -401,12 +401,16 @@ samp {
 }
 
 .pre-light {
-    background: #EAEDF3;
+    background: transparent;
     margin-bottom: 1.6em;
     overflow: auto;
     max-width: 100%;
     padding: 1.6em;
     color: #FF7600;
+}
+
+.bgcodeLight {
+    background: #EAEDF3;
 }
 
 textarea {
@@ -422,14 +426,14 @@ textarea {
 }
 
 .headerDiv {
-    background-color: #EAEDF3; 
+    background-color: #EAEDF3;
     height: 2.5rem;
     padding: 1px 10px;
 }
 
 .titleDiv {
     margin: 0.5rem 0;
-    font-weight:600;
+    font-weight: 600;
 }
 
 
@@ -482,28 +486,28 @@ td:first-child {
 
 /* Monitoring*/
 
- #monitors {
-  border-radius: 4px;
-  padding: 10px 10px 0px; 
-  width:35px;
-  height: 35px; 
-  color: white;
+#monitors {
+    border-radius: 4px;
+    padding: 10px 10px 0px;
+    width: 35px;
+    height: 35px;
+    color: white;
 }
 
 .monitor-icon-blue {
-  background: #1665D8;
+    background: #1665D8;
 }
 
 .monitor-icon-purple {
-  background: #6A78FF;
+    background: #6A78FF;
 }
 
 .monitor-icon-yellow {
-  background: #F6AB2E;
+    background: #F6AB2E;
 }
 
 .monitor-icon-green {
-  background: #3BAD4B;
+    background: #3BAD4B;
 }
 
 
@@ -696,18 +700,19 @@ input.icon::-ms-input-placeholder {
     width: 60px;
 }
 
-  img.profile {
-            border-radius: 50%;
-            width: 50px;
-            padding: 0px 4px 0px 5px;
-            margin: -7px;
-        }
+img.profile {
+    border-radius: 50%;
+    width: 50px;
+    padding: 0px 4px 0px 5px;
+    margin: -7px;
+}
 
 
 
 .topnav {
     overflow: hidden;
     background-color: #FFFFFF;
+    border-bottom: 1px solid #EAEDF3;
 }
 
 .topnav a {
@@ -752,36 +757,55 @@ span.a {
 
 
 /*    6. Onboarding Create Account*/
-        
-        .darkblockDiv {
-            background-color: #4588ED; 
-            color: #fff; 
-            padding: 3.6rem 0 5.8rem 1rem;
-        }
-        
-          .bolderH1 {
-            font-weight: 600;
-            font-size: 2rem;
-        }
-        
-        .lightblockDiv {
-            background-color: #DAE7FB; 
-            padding: 3rem 2.5rem 5.2rem 2.5rem;
-        }
-        .selectDiv {
-            padding: 1rem 1rem 0 1rem;
-        }
-        .txt-small {
-            text-align: center;
-            font-size: 10px;
-        }
-        
-        .rightDiv {
-            display:inline;
-            padding: 0 1rems;
-            font-size:12px;
-            width:60%;
-            position:absolute;
-            top:300px;
-            left:580px;
-        }
+
+.darkblockDiv {
+    background-color: #4588ED;
+    color: #fff;
+    padding: 3.6rem 0 5.8rem 1rem;
+}
+
+.bolderH1 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.lightblockDiv {
+    background-color: #DAE7FB;
+    padding: 3rem 2.5rem 5.2rem 2.5rem;
+}
+
+.selectDiv {
+    padding: 1rem 1rem 0 1rem;
+}
+
+.txt-small {
+    text-align: center;
+    font-size: 10px;
+}
+
+.rightDiv {
+    display: inline;
+    padding: 0 1rems;
+    font-size: 12px;
+    width: 60%;
+    position: absolute;
+    top: 300px;
+    left: 580px;
+}
+
+
+.outerDiv {
+    background-color: #FBFBFD;
+}
+
+.center {
+    margin: auto;
+    width: 60%;
+    background-color: transparent;
+    padding: 10px;
+}
+
+img {
+    width: 100%;
+    height: auto;
+}
