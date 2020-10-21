@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    
+    <title> Library </title>
+    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <style>
+    
+    </style>
+    
+     <link rel="stylesheet" href="./css/sidebar.css">
+    
+      <link rel="stylesheet" href="./css/style.css">
+    
+</head>
+
+<body>
+
+    <div class="sidebar">
+        <a class="active" href="#home">Home</a>
+        <a href="#n01">Text 01</a>
+        <a href="#n02">Text 02</a>
+        <a href="#n03">Text 03</a>
+    </div>
+
+    <div class="content">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+    </div>
+
+    <div class="content" id="n01">
+        <h2>Responsive Sidebar Example 01 </h2>
+        <div class="highlight">
+            <pre>
+        <code>
+     document.querySelectorAll('pre > code').forEach(function (codeBlock) {
+    var button = document.createElement('button');
+    button.className = 'copy-code-button';
+    button.type = 'button';
+    button.innerText = 'Copy';
+
+    var pre = codeBlock.parentNode;
+    if (pre.parentNode.classList.contains('highlight')) {
+        var highlight = pre.parentNode;
+        highlight.parentNode.insertBefore(button, highlight);
+    } else {
+        pre.parentNode.insertBefore(button, pre);
+    }
+});
+
+        </code>
+    </pre>
+        </div>
+
+    </div>
+
+    <div class="content" id="n02">
+        <h2>Responsive Sidebar Example 02</h2>
+    </div>
+
+    <div class="content" id="n03">
+        <h2>Responsive Sidebar Example 03</h2>
+    </div>
+
+    <script>
+
+    
+    </script>
+
+</body>
+
+</html>
