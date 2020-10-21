@@ -220,7 +220,7 @@ label {
 
 
 input[type=text] {
-    width: 30%;
+    width: 80%;
     padding: 12px 20px;
     margin: 8px 0;
     display: inline-block;
@@ -355,14 +355,14 @@ button:hover {
     background: #474747;
     color: #fff;
     text-transform: uppercase;
-    width: 30%;
+    width: 80%;
 }
 
 .btn-google {
     background: #1da1f2;
     color: #fff;
     text-transform: uppercase;
-    width: 30%;
+    width: 80%;
 }
 
 
@@ -491,6 +491,40 @@ td:first-child {
             font-size: 10px;
         }
 */
+
+
+/*Login*/
+
+  .loginDiv {
+            margin:auto;
+            width:30%;
+            border: 1px solid #ccc;
+        }
+        
+        .innerlogDiv {
+            padding: 0 3rem 2rem 3rem;
+        }
+    
+    
+        .imgDiv {
+            width: auto;
+            height: 300px;
+            text-align: center;
+            margin: 1rem 2rem;
+        }
+        
+        .textDiv {
+            text-align: center;
+            margin:1rem;
+            font-size:1rem;
+        }
+        
+        .btn-login {
+            background-color:#FF4E00;
+            color:white;
+            padding:2rem;
+            text-transform: uppercase;
+        }
 
 /* Monitoring*/
 
@@ -832,3 +866,4 @@ img {
 .deployDiv {
     margin: 0 0.5rem;
 }
+
