@@ -2,71 +2,423 @@
 <html>
 
 <head>
-    
+
     <title> Library </title>
-    
+
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    
+
     <style>
-    
+
     </style>
-    
-     <link rel="stylesheet" href="./css/sidebar.css">
-    
-      <link rel="stylesheet" href="./css/style.css">
-    
+
+    <link rel="stylesheet" href="./css/style.css">
+
+    <link rel="stylesheet" href="./css/sidebar.css">
+
+
 </head>
 
 <body>
 
     <div class="sidebar">
-        <a class="active" href="#home">Home</a>
-        <a href="#n01">Text 01</a>
-        <a href="#n02">Text 02</a>
-        <a href="#n03">Text 03</a>
+        <a class="active" href="#home">Layout</a>
+        <a href="#n01">Components</a>
+        <a href="#n02">Content</a>
+        <a href="#n03">Components</a>
     </div>
 
     <div class="content">
-        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+
+        <!--        Login Page -->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/login-page.html">View</a></h3>
+        </div>
+
+
+        <!--   CSP Designer -->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/csp-designer.html">View</a></h3>
+        </div>
+
+
+        <!--   Initial Deployment Setup  -->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/initial-deployment-setup.html">View</a></h3>
+        </div>
+
+
+        <!--  Deploy and Manage CSP  -->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/deploy-manage-csp.html">View</a></h3>
+        </div>
+
+
+        <!--        Monitoring-->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/monitoring.html">View</a></h3>
+        </div>
+
+
+        <!--Onboarding: Create Account-->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/onboarding-create-account.html">View</a></h3>
+        </div>
+
+
+        <!--Onboarding: Activate Account-->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/onboarding-activate-account.html">View</a></h3>
+        </div>
+
+
+        <!--Onboarding: More Info-->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/onboarding-more-info.html">View</a></h3>
+        </div>
+
+
+        <!--Onboarding: Install Code-->
+
+        <div class="row">
+            <div class="center">
+                <img src="./wireframes/1.%20Login%20Page.jpg" />
+            </div>
+
+            <h3 class="text-center"><a target="_blank" href="./pages/onboardin-install-code.html">View</a></h3>
+        </div>
+
+
+
     </div>
 
     <div class="content" id="n01">
-        <h2>Responsive Sidebar Example 01 </h2>
-        <div class="highlight">
-            <pre>
-        <code>
-     document.querySelectorAll('pre > code').forEach(function (codeBlock) {
-    var button = document.createElement('button');
-    button.className = 'copy-code-button';
-    button.type = 'button';
-    button.innerText = 'Copy';
+        <h2>Buttons</h2>
 
-    var pre = codeBlock.parentNode;
-    if (pre.parentNode.classList.contains('highlight')) {
-        var highlight = pre.parentNode;
-        highlight.parentNode.insertBefore(button, highlight);
-    } else {
-        pre.parentNode.insertBefore(button, pre);
-    }
-});
+        <div class="row">
+            <div class="col-6">
 
-        </code>
-    </pre>
+                <div class="input-container">
+                    <i class="fab fa-github icon-button icon-github"></i>
+                    <button class="btn-github"> Log in with Github</button>
+                </div>
+
+            </div>
+            <div class="col-6">
+
+                <div class="input-container">
+                    <i class="fab fa-google icon-button icon-google"></i>
+                    <button class="btn btn-google">Log in with Google</button>
+                </div>
+
+            </div>
+        </div>
+        <!--./row-->
+
+        <div class="row">
+            <div class="col-3">
+
+                <button class="btn-secondary btn-small" type="submit">Reset</button>
+
+            </div>
+
+            <div class="col-3">
+
+                <button class="btn-primary btn-small btn-right" type="submit">Deploy</button>
+
+            </div>
+            <div class="col-3">
+
+                <button class="btn-primary btn-responsive" type="submit"> <i class="fas fa-star"></i> Star</button>
+
+            </div>
+            <div class="col-3">
+
+                <button class="btn-small btn-light" type="submit">Raw</button>
+
+            </div>
+        </div>
+        <!--./row-->
+
+        <h2>Forms</h2>
+
+        <div class="row">
+
+            <div class="col-3">
+
+                <div class="input-container">
+                    <i class="fa fa-user icon"></i>
+                    <input class="input-field" type="text" placeholder="your@example.com" name="usrnm">
+                </div>
+
+            </div>
+
+            <div class="col-3">
+                <div class="input-container">
+                    <i class="fas fa-lock icon"></i>
+                    <input class="input-field" type="text" placeholder="*********" name="usrnm">
+                </div>
+
+            </div>
+
+            <div class="col-3">
+
+                <select class="dropdown select-dropdown" id="value" name="value">
+                    <option value="value">Value</option>
+                    <option value="value">Value</option>
+                    <option value="value">Value</option>
+                    <option value="value">Value</option>
+                </select>
+
+            </div>
+
+            <div class="col-3">
+
+                <label class="switch">
+                    <input type="checkbox">
+                    <span class="slider round"></span>
+                </label>
+            </div>
+
         </div>
 
+        <div class="row">
+            <div class="col-6">
+
+                <div class="empty-field">
+                    <p>deflate-src ‘self’;</p>
+                </div>
+
+            </div>
+            <div class="col-6"></div>
+        </div>
+
+        <h2>Tables</h2>
+
+        <div class="row">
+
+
+            <table>
+                <tr>
+                    <th>Version</th>
+                    <th>Date Updated</th>
+                    <th>Status</th>
+                </tr>
+                <tr>
+                    <td>B456354</td>
+                    <td>Oct 9, 2020 3:00 pm CST</td>
+                    <td>
+                        <img class="avatar" src="./img/img_avatar.jpg" alt="avatar">
+                        Stephanie Wucher<br /> deployed
+                    </td>
+                </tr>
+                <tr>
+                    <td>B456354</td>
+                    <td>Oct 9, 2020 3:00 pm CST</td>
+                    <td>
+                        <img class="avatar" src="./img/img_avatar.jpg" alt="avatar">
+                        Stephanie Wucher<br /> deployed
+                    </td>
+                </tr>
+                <tr>
+                    <td>B456354</td>
+                    <td>Oct 9, 2020 3:00 pm CST</td>
+                    <td>
+                        <img class="avatar" src="./img/img_avatar.jpg" alt="avatar">
+                        Stephanie Wucher<br /> deployed
+                    </td>
+                </tr>
+            </table>
+
+            <br clear="all" /> 
+            
+                <table>
+            <tr class="tr-divider">
+                <th>Directive</th>
+                <th>Source</th>
+                <th>Count</th>
+                <th>Detail</th>
+                <th>Last Seen</th>
+                <th>Action</th>
+            </tr>
+            <tr class="tr-divider">
+                <td>script-src</td>
+                <td>eval</td>
+                <td>200</td>
+                <td>for(I=0;“iDMMNvNSME”.length;i++){print(String.fromCharCode(“iDMMNvNSME”.charCodeAt(i)0x21 </td>
+                <td>25 minutes ago</td>
+                <td>Buttons</td>
+            </tr>
+            <tr class="tr-divider">
+                <td>script-src</td>
+                <td>eval</td>
+                <td>200</td>
+                <td>for(I=0;“iDMMNvNSME”.length;i++){print(String.fromCharCode(“iDMMNvNSME”.charCodeAt(i)0x21 </td>
+                <td>25 minutes ago</td>
+                <td>Buttons</td>
+            </tr>
+        </table>
+
+
+        </div>
+        <!--./row-->
+        
+        
+        <h2>Code</h2>
+        
+        <div class="row">
+            
+            <div class="col-6">
+            
+             <pre class="pre-dark">
+
+             {
+  "_id": "580e63fc8c9a982ac9b8b745" 
+  "lastUpdated": "2016-10-24T19:42:38.929Z",
+  "createdOn": "2016-10-24T19:41:48.349Z",
+  "name": "Blog Posts",
+  "slug": "post",
+  "singularName": "Blog Post",
+  "fields": [
+    {
+      "id": "7f62a9781291109b9e428fb47239fd35",
+      "editable": true,
+      "required": false,
+      "type": "RichText",
+      "slug": "post-body",
+      "name": "Post Body"
+    },
+    {
+      "validations": {
+        "singleLine": false
+      },
+      "id": "ac4ffead755a78c710c44042f528b073",
+      "helpText": "A summary of the blog post that appears on blog post grid",
+      "editable": true,
+      "required": false,
+      "type": "PlainText",
+      "name": "Post Summary"
+    },
+    {
+      "id": "ba1cfbdaa6b38b8e95e9b5063da8a5bd",
+      "editable": true,
+      "required": false,
+      "type": "ImageRef",
+      "name": "Main Image"
+    },
+
+              </pre>
+            
+            </div>
+            <div class="col-6">
+            
+             <pre class="pre-light bgcode-secondary">
+
+             {
+  "_id": "580e63fc8c9a982ac9b8b745" 
+  "lastUpdated": "2016-10-24T19:42:38.929Z",
+  "createdOn": "2016-10-24T19:41:48.349Z",
+  "name": "Blog Posts",
+  "slug": "post",
+  "singularName": "Blog Post",
+  "fields": [
+    {
+      "id": "7f62a9781291109b9e428fb47239fd35",
+      "editable": true,
+      "required": false,
+      "type": "RichText",
+      "slug": "post-body",
+      "name": "Post Body"
+    },
+    {
+      "validations": {
+        "singleLine": false
+      },
+      "id": "ac4ffead755a78c710c44042f528b073",
+      "helpText": "A summary of the blog post that appears on blog post grid",
+      "editable": true,
+      "required": false,
+      "type": "PlainText",
+      "name": "Post Summary"
+    },
+    {
+      "id": "ba1cfbdaa6b38b8e95e9b5063da8a5bd",
+      "editable": true,
+      "required": false,
+      "type": "ImageRef",
+      "name": "Main Image"
+    },
+
+              </pre>
+            </div>
+        
+        
+        </div>
+
+
     </div>
+    <!--./content-->
 
     <div class="content" id="n02">
         <h2>Responsive Sidebar Example 02</h2>
+
+
+        <div class="highlight">
+            <pre>
+              <code></code>
+            </pre>
+        </div>
     </div>
 
     <div class="content" id="n03">
         <h2>Responsive Sidebar Example 03</h2>
     </div>
 
+
+    <script src="https://kit.fontawesome.com/65e8b7dfad.js" crossorigin="anonymous"></script>
+
     <script>
 
-    
+
     </script>
 
 </body>
